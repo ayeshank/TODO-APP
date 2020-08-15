@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: linear-gradient(to bottom , rgba(233, 5, 5, 0.993), rgba(230, 141, 7, 0.856));  
+  /* background-size: cover; */
+  /* background-color: white; */
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.childApp
+{
+  width: 100%;
+  height: auto%;
+  background-image: linear-gradient(to bottom , rgba(233, 5, 5, 0.993), rgba(230, 141, 7, 0.856));  
+
+  text-align: center;
+  border-radius: 2%;
+  box-shadow: 2px 3px 10px black;
+  align-items: left;
+ /* background-color: cyan; */
+ 
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.mytodo
+{
+color: black;
+width: 100%;
+background-color: rgba(250, 248, 241, 0.5);
+
+}
+.list-group-item
+{
+background-color: transparent;
+border: none;
+text-align: left;
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 100%;
+}
+.list-group
+{
+  color: #282c34;
+  width: 100%;
+}
+.todoinput
+{
+  color: #282c34;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  width: 90%;
+  align-items: center;
+}
+.btn
+{
+  background-color: black;
+  color: white;
+ }
+.btn:hover
+{
+  background-color: black;
+  color: white;
+}
+.mytodo .done {
+  text-decoration: line-through;
+}
+.spname
+{
+  background-color: transparent;
+  border: none;
+  width: 65%;
+}
